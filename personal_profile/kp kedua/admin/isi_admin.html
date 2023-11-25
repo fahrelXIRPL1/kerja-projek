@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+<div class="container">
+        <nav class="wraper">
+            <div class="judul">
+                <div class="firstname">Relz</div>
+                <div class="lastname">Store</div>
+            </div>
+        </nav>
+     </div>
+     <nav class ="sidebar">
+        <ul>
+            <li>
+                <a href="" class="feat-btn">produk</a>
+              <ul class="feat-show">
+                 <li><a href="">B.lengan panjang</a></li>
+                 <li><a href="">B.lengan pendek</a></li>
+                 <li><a href="">Jaket</a></li>
+              </ul>       
+            </li>
+            <li>
+                <a href="" class="serv-btn">pembelian produk</a>
+            <ul class="serv-show">
+                <li><a href="">B.lengan panjang</a></li>
+                <li><a href="">B.lengan pendek</a></li>
+                <li><a href="">Jaket</a></li>
+            </ul>
+            </li>
+            <li><a href="login.php">Logout</a></li>
+        </ul>
+     </nav>
+     <div class="content">
+        <div class="cards">
+           
+            </div>
+        </div>
+     </div>
+     <script>
+        $('.feat-btn').click(function(){
+            $('nav ul .feat-show').toggleClass("show");
+        })
+     </script>
+</body>
+</html>

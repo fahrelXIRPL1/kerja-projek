@@ -1,0 +1,373 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: grey;
+}
+.kotak{
+    position: absolute;
+    background-color: white;
+    height: 500px; 
+    width: 50%;
+    border-radius: 10px;
+   margin-left: 20%;
+   margin-top: 100px;
+   z-index: 0;
+}
+.login{
+    text-align: center;
+    font-style: italic;
+}   
+a{
+    text-decoration: none;
+}
+.awalan{
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.gambar{
+    left: 350px;
+    top: 200px;
+    transform: translate(350px,-200px);
+    max-width: 700px;
+}
+.submit{
+    left: 100px;
+    translate: 100px;
+    height:30px ;
+    width: 80px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.submit:hover{
+    background-color: grey;
+    transition: all ease 3s;
+    border-radius: 5px;
+}
+p{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.container{
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    height: 100vh;  
+    position: fixed;
+    left: 0;
+    top: 10px;
+    transform: translate(0px,-10px);
+}
+
+.wraper{
+display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 200%;
+ height: 80px;
+ border-radius: 5px;
+ background-color: #222;
+ top: 0px;
+ translate: 0px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+  
+}
+.navigation> li{
+    display: block;
+    list-style-type: none;
+    color: aliceblue;
+    padding: 15px;
+    position: relative;
+}
+.navigation> li:hover{
+    color: crimson;
+    cursor: pointer;    
+    transition: all.6s ease-in-out;
+    text-decoration: underline crimson
+}
+.judul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.firstname{
+    color: azure;
+    font-weight: 700;
+}
+.lastname{
+    color: goldenrod;
+    font-weight: 700;
+    border-color: aliceblue;
+}
+
+
+.tampilan{
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.welcome{
+    color: #222;
+    border: 3px solid black;
+   padding: 10px;
+   width: 200px;
+   border-radius: 5px;
+   left: 500px;
+   top: 300px;
+   transform: translate(500px,-300px);
+}
+.tentang{
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.lorem{
+    color: aliceblue;
+}
+.lorem:hover{
+    transition: all 6s ease;
+}
+.gerak{
+    color: aliceblue;
+}
+.gerak:hover{
+    color: crimson;
+    transition: all.6s ease-in-out;
+}
+.satu{
+    color: blue !important;
+}
+.navigation ul li.dropdown{
+    display: none;
+}
+.balik{
+    color: aliceblue !important;
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.badan
+{
+    width: 880px;
+    margin: 35px auto;
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+ 
+.badan h2
+{
+    color: crimson;
+    border-bottom: 1px solid gainsboro;
+    margin: 5px;
+    margin-bottom: 13px;
+}
+ 
+.list-produk
+{
+    margin-left: 8px;
+    margin-top: 100px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    background-color: aliceblue;
+}
+.list-produk1{
+    margin-left: 8px;
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    background-color: aliceblue;
+}
+.list-produk1:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px black;
+}
+ 
+.list-produk1 img
+{
+    width: 100%;
+    height: 175px;
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.list-produk1 h4, .list-produk1 h5
+{
+    color: crimson;
+    text-align: center;
+    padding: 0px;
+    background-color: #222;
+    margin-top: 0px;
+}
+
+ 
+.list-produk:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px black;
+}
+ 
+.list-produk img
+{
+    width: 100%;
+    height: 175px;
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.list-produk h4, .list-produk h5
+{
+    color: crimson;
+    text-align: center;
+    padding: 0px;
+    background-color: #222;
+    margin-top: 0px;
+}
+ 
+.tombol
+{
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: block;
+    float: left;
+    width: 45%;
+    margin: 4px;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 700ms;
+}
+ 
+.tombol-detail
+{
+    background-color: green;
+    margin-left: 40px;
+}
+ 
+.tombol-beli
+{
+    background-color: crimson;
+    margin-left: 40px;
+}
+.harga{
+    padding: 20px;
+}
+.search{
+    position: none important;
+    left: 1%;
+    top: 2590%;
+    transform: translate(1%,-2590%);
+    width: 20%;
+    display: inline-flex;
+}
+.dropdown {
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.container ul li .dropdown{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+    display: none;
+    list-style: none;
+    width: 12   0px;
+    z-index: 1;
+
+}
+.container ul li:hover .dropdown{
+    display: block;
+    background-color: #222;
+    border: solid 1px #fff;
+    position: absolute;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+a{
+    color: white ;
+}
+.icon{
+    color: #fff;
+    padding: 15px;
+}
+.ketabu{
+    margin-top: 5px;
+    background-color: #222;
+    width: 30%;
+    padding: 5px 0px 1px 5px;
+    border-radius: 10px;
+    left: 20px;
+    transform: translate(20px);
+}
+.namaabu{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+.info{
+    font-size: 10px;
+    padding: 5px;
+    left: 230px;
+    top: 170px;
+    transform: translate(230px,-170px);
+    border: solid 2px #222;
+    width: 40%;
+}
+.keterangan{
+    border: solid 2px #222;
+    width: 90%;
+    height: 150px;
+    padding: 5px;
+    left: 0px;
+    top: 20px;
+    transform: translate(0px,-20px);
+
+}
+.ket{
+    font-size: 30px;
+}
+.jarak{
+    left: 30px;
+    top: 190px;
+    transform: translate(30px,-190px);
+}
+.back{
+    background-color: crimson;
+    left: 830px;
+    top: 522px;
+    transform: translate(830px,522px);
+    padding: 5px;
+    border-radius: 10px;
+}
+.keranjang{
+    width: 1000px;
+    background: #fff;
+    left: 70px;
+    top: 100px;
+    transform: translate(70px,100px);
+}
+
